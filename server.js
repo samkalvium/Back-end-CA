@@ -1,6 +1,8 @@
 const express = require('express')
 const router = require('./route.js')
-const port=3001
+require('dotenv')
+
+const port= process.env.PORT || 3001
 
 const app = express()
 app.use(express.json())
