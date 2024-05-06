@@ -1,0 +1,18 @@
+{
+  "name": "fetch-data",
+  "version": "1.0.0",
+  "description": "Fectching the data from the given API",
+  "main": "server.js",
+  "scripts": {
+    "test": "\" \"",
+    "dev": "nodemon server.js",
+    "type":"module"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
